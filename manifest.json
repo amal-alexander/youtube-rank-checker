@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Rank Annotator",
+  "version": "1.3",
+  "description": "Shows rank numbers on YouTube search results and highlights your video.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Show Video Ranks"
+  }
+}
